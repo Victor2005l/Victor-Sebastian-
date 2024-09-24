@@ -1,9 +1,15 @@
 #include <stdio.h>
 
-  /* programa 1.1
-  EL siguiente es el primer programa escrito en el lenguaje C. */
+ /* Invierte datos
+ El programa, al recibir como datos un conjunto de datos de entrada, invierte el orden de los mismos cuando los imprime.
 
-  void main (void )
-  {
-      printf("mi primer programa en c");}
 
+ A, B, C y D: variables de tipo entero. */
+
+ void maid (void)
+ {
+     int A, B, C, D;
+     printf("Ingrese cuatro datos de tipo entero: " );
+     scanf("%d %d %d %d", &A, &B, &C, &D);
+     printf("\n %d %d %d %d " , D, C, B, A);
+      }
