@@ -6,6 +6,9 @@ El programa, al recibir como datos la base y la altura de un triangulo, calcula 
 BAS, ALT y SUP: variables de tipo real. */
 
 void main(void)
-{
-
+{ float BAS, ALT, SUP;
+printf("Ingrese la base y la altura del ");
+scanf ("%f %f" , &BAS, &ALT);
+SUP = BAS * ALT / 2;
+printf("\nLA superficie del triangulo es: %5.2f" , SUP);
 }
