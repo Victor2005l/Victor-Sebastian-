@@ -1,16 +1,15 @@
 #include <stdio.h>
-/* Aplicacion de operadores. */
+ /* medidas.
+ El programa, al recibir como datos la longitud y el peso de un objeto expresado en pies y libras, calcula los datos de este objeto pero en metros y kilogramos, respectivamente
 
-void main (void)
-{
-    int i = 15, j, k, l;
+    PIE, LIB, MET y KIL: variables de tipo real. */
 
-    j = (15 > i -- ) > (14 < ++i);
-printf( "\nEl valor de j es: %d" , j);
-
-k = ! ('b' != 'd') > (!i -1);
-printf("\nEl valor de k es: %d" , k);
-
-1 = (!(34 > (70 % 2)) || 0);
-printf("\nEl valor de 1 es: %d" , 1);
-}
+    void maid (void)
+    {
+        float PIE, LIB, MET, KIL;
+        printf("ingrese los datos del objeto:");
+        scanf("%f %f" , &PIE, &LIB);
+        MET = PIE * 0.09290;
+        KIL = LIB * 0.45359;
+        printf("\nDatos del objeto \nLonguitud: %5.2f \t Peso: %5.2f", MET, KIL);
+    }
